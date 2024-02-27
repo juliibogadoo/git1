@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828726_1280.jpg);
+    background-size: cover;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.inicio{
+    text-align: center;
+    color: white;
+    padding: 35px;
+}
+
+main h2{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 10px;
+}
+main a{
+    color: black;
+    background-color: rgb(238, 255, 0);
+font-size: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    
+}
+main a:hover{
+    background-color: grey;
+    color: white;
+}
+
+.secciones{
+    display: grid;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    padding: 50px;
+    height: 550px;
+}
+
+.seccion{
+    height: 800px;
+    width: 100%;
+
+}
+.seccion1{
+    letter-spacing: 2px;
+padding: 30px;
+font-weight: bolder;
+
+   
+}
+.plan{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.seccion1 div{
+    padding: 10px;
+}
+
+.seccion1 a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(238, 255, 0);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.seccion1 a:hover{
+    background-color: grey;
+    color: white;
+}
+
