@@ -87,7 +87,8 @@ nav .barra{
     }
 
     p{margin-right: 30px; text-align: center;}
-    main a{text-align: center; display:block;}
+    main a{text-align: center; display:block; margin-top: 10px;}
+    .cambio{margin-top: 30px; font-size: 35px; letter-spacing: 5px;}
 }
 body{
     background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828726_1280.jpg);
