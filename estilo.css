@@ -26,6 +26,8 @@ nav .barra{
 .menu li{
     padding-left: 30px;
 }
+
+
 .menu li a{
     display: inline-block;
     position: relative;
@@ -53,30 +55,39 @@ nav .barra{
     color: white;
     cursor: pointer;
     font-size: 1.5rem;
-    top: 50%;
+    top: 200%;
     right: 20px;
     display: none;
     transform: translateY(-50%);
 }
-#check{display: none;
-}
+#check{display: none;}
+
 @media(max-width: 610px){
     .menu{
+
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
+        font-size: 15px;
         width: 80%;
-        height: 100vh;
-        position: fixed;
+        height: 250px;
+        position:fixed;
         top: 0;
-        right: -100%;
-        z-index: 100;
+        right: -200%;
+        z-index: 200%;
         transition: all 0.2s ease-in-out;
     }
-    .menu li{margin-top: 40px}
-    .menu li a{padding: 10px;}
-    .abierto, .cerrar{display: block;}
-    #check:checked ~ .menu {right: 0;}
+    label{height: 450px;}
+    .menu li{margin-top: 20px; height: 20px;}
+    .menu li a{padding: 8px;}
+    .abierto{display:block;}
+    #check:checked ~ .menu {right: 0px;}
+    h1{height: 200px;}
+    main h2{margin-right: 30px; text-align: center; display: block; font-size: 40px;
+    }
+
+    p{margin-right: 30px; text-align: center;}
+    main a{text-align: center; display:block;}
 }
 body{
     background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828726_1280.jpg);
@@ -93,7 +104,7 @@ h1{
 .inicio{
     text-align: left;
     color: white;
-    padding: 35px;
+    padding: 20px;
 }
 
 main h2{
@@ -103,6 +114,7 @@ main h2{
 }
 
 p{
+    display: inline-block;
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 3px;
     font-size: 15px;
@@ -115,6 +127,7 @@ font-size: 10px;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     text-decoration: none;
+    justify-content: center;
     padding: 10px 30px;
     border-radius: 25px;
     font-weight: bold;
