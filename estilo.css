@@ -187,7 +187,7 @@ font-weight: bolder;
     color: white;
 }
 
-@media(max-width:610px){
+@media(max-width:727px){
     .menu{
 
         flex-direction: column;
@@ -215,7 +215,7 @@ font-weight: bolder;
     main a{text-align: center; display:block; margin-top: 10px; font-size: 15px;}
     .cambio{margin-top: 30px; font-size: 35px; letter-spacing: 5px;}
 }
-@media(min-width: 611px ) and (max-width: 1015px) {
+@media(min-width: 727px ) and (max-width: 1275px) {
     h1{text-align: end;}
     
 }
