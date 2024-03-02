@@ -136,7 +136,7 @@ footer{
 }
 footer a{
     font-size: 20px;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
         color: white;
     
 }
@@ -260,7 +260,7 @@ font-size: 35px;
         z-index: 200%;
         transition: all 0.2s ease-in-out;
     }
-    label{height: 500px;}
+    label{height: 520px; justify-content: right;}
     .menu li{margin-top: 20px; height: 20px;}
     .menu li a{padding: 8px;}
     .abierto{display:block;}
@@ -273,6 +273,7 @@ font-size: 35px;
     main a{text-align: center; display:block; margin-top: 10px; font-size: 15px;}
     .cambio{margin-top: 30px; font-size: 35px; letter-spacing: 5px;}
 }
+
 @media(min-width: 727px ) and (max-width: 1275px) {
     h1{text-align: end;}
     
@@ -286,14 +287,18 @@ font-size: 35px;
     main h2{font-size: 20px; margin: 10px;}
     p{text-align: center; margin: 5px;}
     .cambio{font-size: 30px; display: block; margin: 0px;}
-    
 }
-
+@media (max-width:550px){
+.menu li a{font-size: 10px; }
+main h2{font-size: 15px;}
+}
 @media (min-width:1055px){
-    #sec1{font-size: 50px; margin-bottom: 100px;}
+    #sec1{font-size: 50px; margin-bottom: 100px; height: 0px;}
     .seccion{letter-spacing: 2px;}
     .quince{text-align: center; margin-right: 850px; font-size: 20px;}
     .treinta{text-align:center; margin-top: -260px; font-size: 20px; }
     .trimestral{text-align: center; margin-top: -260px; margin-left: 900px; font-size: 20px;}
+
+    
 
 }
